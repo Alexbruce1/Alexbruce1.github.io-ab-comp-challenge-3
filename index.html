@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Static Comp 3</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<nav class="nav-bar">
+  <section class="nav-profile"> 
+    <img class="profile-picture" src="ab-comp-challenge-3/images/alex.jpg">
+    <article class="profile-name-container">
+      <a class="profile-name" href="">Alex Bruce</a>
+    </article>
+  </section>
+  <section class="nav-main">
+    <a class="nav-option"><img class="nav-icon" src="images/home.svg">HOME</a>
+    <a class="nav-option"><img class="nav-icon" src="images/jobs.svg">JOBS</a>
+    <a class="nav-option"><img class="nav-icon" src="images/resumes.svg">RESUMES</a>
+    <a class="nav-option"><img class="nav-icon" src="images/tasks.svg">TASKS</a>
+    <a class="nav-option"><img class="nav-icon" src="images/calendar.svg">CALENDAR</a>
+  </section>
+  <section class="nav-admins">
+    <a class="nav-option"><img class="nav-icon" src="images/users.svg">USERS</a>
+    <a class="nav-option"><img class="nav-icon" src="images/location.svg">LOCATIONS</a>
+    <a class="nav-option"><img class="nav-icon" src="images/workflows.svg">WORKFLOWS</a>
+    <a class="nav-option"><img class="nav-icon" src="images/job-boards.svg">JOB BOARDS</a>
+    <a class="nav-option"><img class="nav-icon" src="images/social.svg">SOCIAL</a>  
+  </section>
+  <section class="nav-categories">
+    <a class="nav-option"><input class="checkbox" type="checkbox" name="checkbox"> Administrative</a>
+    <a class="nav-option"><input class="checkbox" type="checkbox" name="checkbox"> Design</a>
+    <a class="nav-option"><input class="checkbox" type="checkbox" name="checkbox"> Executive</a>
+    <a class="nav-option"><input class="checkbox" type="checkbox" name="checkbox"> Human Resources</a>
+  </section>
+</nav>
+
+<main class="main">
+  <section class="search-bar">
+    <button class="search-btn"><img class="search-icons x-button" src="images/x.svg"> <img src="images/menu.svg" class="search-icons hamburger-button"></button>
+    <input class="search-input" type="text" name="search field" placeholder="Search for a job, task, or resume">
+    <button class="search-btn add-user-button"><img class="search-icons" src="images/add-user.svg"></button>
+    <button class="search-btn"><img class="search-icons" src="images/calendar.svg"></button>
+    <button class="search-btn search-btn-last"><img class="search-icons" src="images/dots.svg"></button>
+  </section>
+  <section class="title-bar">
+    <article class="title-main">
+      <h1 class="title-header">Customer Service Representative</h1>
+      <button class="title-location-button"><img alt="location" class="location-icon" src="images/location.svg"> Denver, CO</button>
+      <button class="title-preview-button">Preview This Post</button>
+    </article>
+    <article class="title-side-buttons">
+      <button class="title-side-button t-open-button">OPEN</button>
+      <button class="title-side-button t-save-button"><img class="title-button-icons" src="images/bookmark.svg"></button>
+      <button class="title-side-button t-edit-button"><img class="title-button-icons" src="images/pencil.svg"></button>
+      <button class="title-side-button t-trash-button"><img class="title-button-icons" src="images/trash.svg"></button>
+    </article>
+    <article class="title-tabs">
+      <button class="tab-button tab1">SUMMARY</button>
+      <button class="tab-button tab2">APPLICANTS</button>
+      <button class="tab-button tab3">JOB BOARD</button>
+      <button class="tab-button tab4">INTERVIEWS</button>
+      <button class="tab-button tab5">ACTIVITY</button>
+      <button class="tab-button tab6">BROADCAST</button>
+      <button class="tab-button tab7">NOTIFICATIONS</button>
+    </article>
+  </section>
+  <section class="charts-bar">
+    <article class="charts-circle">
+
+      <svg class="svg-chart" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#FCFCFC" stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#2f425e" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="25"></circle>
+      </svg>    
+      <svg class="svg-chart" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#FCFCFC" stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#7aa0c4" stroke-width="3" stroke-dasharray="75 25" stroke-dashoffset="25"></circle>
+      </svg>    
+      <svg class="svg-chart" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#FCFCFC" stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#5DBCD2" stroke-width="3" stroke-dasharray="65 35" stroke-dashoffset="25"></circle>
+      </svg>
+
+
+  <!--   
+      <img class="graph graph1" src="images/graph1.png">
+      <img class="graph graph2" src="images/graph2.png">
+      <img class="graph graph3" src="images/graph3.png"> -->
+    </article>
+    <article class="charts-graph">    
+      <img class="graph bar-graph" src="images/bar-graph.png">
+    </article>
+    <button class="graph-button circle-graph-button">TOTALS - Out of 5231 views</button>
+    <button class="graph-button bar-graph-button">APPLICANTS/DAY</button>
+  </section>
+  <section class="resume-bar">
+    <article class="resume">
+      
+
+
+      <table class="resume-head-table table-header">
+        <tr class="resume-table-header">
+          <th class="table-left-column ">JOB DESCRIPTION</th>
+          <th class="table-right-column "><button class="table-edit-button"><img class="resume-table-icon" src="images/pencil.svg">EDIT</button></th>
+        </tr>
+      </table>
+      <table class="resume-table">
+        <tr>
+          <td class="table-left-column ">POSITION TITLE</td>
+          <td class="table-right-column ">Cutsomer Service Representative</td>
+        </tr>
+        <tr>
+          <td class="table-left-column ">LOCATION</td>
+          <td class="table-right-column ">Denver, CO</td>
+        </tr>
+        <tr>
+          <td class="table-left-column ">EMPLOYMENT TYPE</td>
+          <td class="table-right-column ">Full-time</td>
+        </tr>
+        <tr>
+          <td class="table-left-column ">EXPERIENCE</td>
+          <td class="table-right-column ">Mid-Level</td>
+        </tr>
+        <tr>
+          <td class="table-left-column ">STATUS</td>
+          <td class="table-right-column ">Open</td>
+        </tr>
+        <tr>
+          <td class="table-left-column ">DESCRIPTION</td>
+          <td class="table-right-column ">The customer Service Representative is responsible for interacting with and providing quality assurance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</td>
+        </tr>
+        <tr>
+          <td class="table-left-column ">HIRING LEAD</td>
+          <td class="table-right-column "><img src="">Tom Tizzy</td>
+        </tr>
+        <tr>
+          <td class="table-left-column last-table-row">APPROVED SALARY</td>
+          <td class="table-right-column last-table-row">$58,000</td>
+        </tr>
+      </table>
+    </article>
+    <aside class="share-bar">
+      <button class="share-button share-facebook"><img class="share-icons share-icon-facebook" src="images/facebook-circle.svg"> Post to Facebook</button>
+      <button class="share-button share-twitter"><img class="share-icons share-icon-twitter" src="images/twitter-circle.svg"> Who the fuck uses Twitter</button>
+      <button class="share-button share-linkedin"><img class="share-icons share-icon-linkedin" src="images/linkedin-circle.svg"> Post to LinkedIn</button>
+      <h2 class="share-header share-header1"><img class="share-header-icons" src="images/jobs.svg">Link to this job</h2>
+      <p class="share-text">We're no strangers to love. You know the rules and so do I. A full commitment's what I'm thinking of. You wouldn't get this from any other guy</p>
+      <form class="share-form">
+      <input class="share-form-input share-form-elements" type="text" placeholder="https://www.rickastley.co.uk/">
+      <button class="share-form-button share-form-elements"> Copy</button>
+      </form>
+      <h2 class="share-header share-header2"><img class="share-header-icons" src="images/resumes.svg">Use this Button Widget</h2>
+      <p class="share-text">I just wanna tell you how I'm feeling. Gotta make you understand</p>
+      <form class="share-form">
+      <input class="share-form-input share-form-elements" type="text" placeholder="https://www.rickastley.co.uk/">
+      <button class="share-form-button share-form-elements"> Copy</button>
+      </form>
+      <h2 class="share-header share-header3"><img class="share-header-icons" src="images/job-boards.svg">Upload Resume by Email</h2>
+      <p class="share-text">Never gonna give you up, Never gonna let you down, Never gonna run around and desert you, Never gonna make you cry, Never gonna say goodbye, Never gonna tell a lie and hurt you</p>
+      <form class="share-form">
+      <input class="share-form-input share-form-elements" type="text" placeholder="https://www.rickastley.co.uk/">
+      <button class="share-form-button share-form-elements"> Copy</button>
+      </form>
+    </aside>
+  </section>
+</main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
